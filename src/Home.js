@@ -1,4 +1,5 @@
 import React from "react";
+import Product from "./Product";
 import "./Home.css";
 
 function Home() {
@@ -11,15 +12,53 @@ function Home() {
           alt=""
         />
         <div className="home__row">
-          {/* Product */}
-          {/* Product */}
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />
         </div>
         <div className="home__row">
-          {/* Product */}
-          {/* Product */}
-          {/* Product */}
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />
         </div>
-        <div className="home__row">{/* Product */}</div>
+        <div className="home__row">
+          <Product
+            id="12345678"
+            title="The Lean StartUp"
+            price={299}
+            rating={5}
+            image="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Jupiter2020/Phase_4_CC_QC/D18553048_Jupiter-_Phase_4esktopGateway_CategoryCard_758X608_2x._SY304_CB416489355_.jpg"
+          />``
+        </div>
       </div>
     </div>
   );
