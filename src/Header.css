@@ -53,6 +53,8 @@
 .header__option {
   display: flex;
   flex-direction: column;
+  margin-top:0px;
+  margin-bottom:0px;
   margin-left: 10px;
   margin-right: 10px;
   color: white;
